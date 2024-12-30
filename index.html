@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Music App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="player">
+      <div class="playerTop">
+        <button class="playerBtn" type="button">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <span>Spotify Music App</span>
+        <button class="playerBtn" type="button">
+          <i class="fa-solid fa-ellipsis"></i>
+        </button>
+      </div>
+      <div class="playerBody">
+        <div class="currentSong">
+          <div class="cover">
+            <span>Off Black</span>
+            <span>Happy Birthday</span>
+          </div>
+        </div>
+      </div>
+      <div class="songInfo">
+        <div class="songDetails">
+            <span class="songName">Happy Birthday</span>
+            <span class="songArtist">Off Black</span>
+        </div>
+        <i class="fa-solid fa-heart"></i>
+      </div>
+      <div class="songDuration">
+        <div class="songTime">
+          <div class="songProgress">
+            <audio src="music/happy birthday.m4a" class="audio"></audio>
+          </div>
+        </div>
+        <div class="time">
+          <span>0:00</span>
+          <span>0:00</span>
+        </div>
+      </div>
+      <div class="controls">
+        <button class="playerBtn" type="button">
+          <i class="fa-solid fa-shuffle"></i>
+        </button>
+        <button class="playerBtn prevBtn" type="button">
+          <i class="fa-solid fa-backward"></i>
+        </button>
+        <button class="playerBtn play-pause" type="button">
+          <i class="fa-solid fa-play"></i>
+        </button>
+        <button class="playerBtn nextBtn" type="button">
+          <i class="fa-solid fa-forward"></i>
+        </button>
+        <button class="playerBtn" type="button">
+          <i class="fa-solid fa-repeat"></i>
+        </button>
+        
+        
+        
+      </div>
+      <div class="playerFooter">
+        <i class="fa-solid fa-music"></i>
+        <span>Listen to Spotify Music</span>
+        <i class="fa-solid fa-list"></i>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

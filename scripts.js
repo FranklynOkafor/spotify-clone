@@ -14,6 +14,17 @@ const songData = [
     artist: 'Off black',
     src: 'scale.m4a'
   },
+  {
+    name: 'Christmas Gbedu',
+    artist: 'Off black',
+    src: 'Christmas.m4a'
+  },
+  {
+    name: 'MRandom Screams',
+    artist: 'Off black',
+    src: 'Random Screams.m4a'
+  },
+  
   
 ]
 
